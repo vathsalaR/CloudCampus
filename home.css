@@ -1,0 +1,87 @@
+/*#enroll-table{*/
+    /*width: 65em;*/
+    /*margin-left: -15em;*/
+/*}*/
+/*#view-classes-table{*/
+    /*width: 55em;*/
+    /*margin-left: -15em;*/
+/*}*/
+#enroll-table{
+    width: 65em;
+    margin-left: -10em;
+}
+#view-classes-table, #list-topics{
+    width: 55em;
+    margin-left: -10em;
+}
+#vertical-nav{
+    width: 15em;
+    /*margin-left: -1.5em;*/
+    margin-top: 0.2%;
+}
+#vertical-nav li{
+    text-align: left;
+    padding-left: 5%;
+    color: #999;
+    z-index: 1000;
+    border: 1px solid grey;
+    border-top: none;
+    margin-top: 0px;
+
+}
+#vertical-nav li:first-child {
+    border-top: 1px solid grey;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+#vertical-nav li:last-child {
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#vertical-nav li.active a{
+    text-align: left;
+    padding-left: 5%;
+
+}
+
+#vertical-nav li a{
+    /*background-color: #1a176d;*/
+    text-align: left;
+    padding-left: 10%;
+    color: #0088cc;
+
+}
+#vertical-nav li a:hover{
+    /*background-color: #1a176d;*/
+    color: grey;
+
+}
+/*.container{*/
+    /*margin-top: -17em;*/
+/*}*/
+#welcome-msg{
+    margin-top: -18em;
+    float: right;
+}
+.container{
+    position: absolute;
+    margin-top: -18em;
+}
+#notification-li{
+    width: 25em;
+}
+#user-name {
+    margin-top: 0.5em;
+    margin-left: 1em;
+    font-size: 20px;
+    color: #9d9d9d;
+}
+.list-classes-txt{
+    font-family: cursive;
+}
+a.disabled {
+    pointer-events: none;
+    cursor: default;
+    color: grey !important;
+}
